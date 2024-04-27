@@ -19,7 +19,6 @@ public class Main {
             System.out.println(customer);
         }
 
-
         Customer customerToUpdate = customerRepository.getCustomerById(1);
         customerToUpdate.setName("Mehmet");
         customerRepository.updateCustomer(customerToUpdate);
